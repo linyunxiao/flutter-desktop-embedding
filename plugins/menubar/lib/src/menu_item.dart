@@ -26,12 +26,12 @@ abstract class AbstractMenuItem {
 }
 
 /// A standard menu item, with no submenus.
-class MenuItem extends AbstractMenuItem {
+class MenuItem1 extends AbstractMenuItem {
   /// Creates a new menu item with the given [label] and options.
   ///
   /// Note that onClicked should generally be set unless [enabled] is false,
   /// or the menu item will be selectable but not do anything.
-  const MenuItem({
+  const MenuItem1({
     required String label,
     this.shortcut,
     this.enabled = true,
